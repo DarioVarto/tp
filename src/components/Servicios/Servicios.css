@@ -1,0 +1,13 @@
+.contenedorServicios{
+    color: white;
+}
+.contenedorDivServicios{
+    display: flex;
+    justify-content: space-around;
+}
+.divServicios{
+    display: flex;
+    align-items: center;
+}
+.iServicios{font-size: 1.5rem;
+text-align: center;}
