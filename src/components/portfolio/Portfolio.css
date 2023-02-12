@@ -1,0 +1,35 @@
+.contenedor_portfolio{
+    color: white;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_imagenes{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 4rem;
+    
+}
+
+.img_portfolio{
+    width: 20%;
+    padding: 1rem 5rem 0 5rem;
+}
+.img_1,.img_3{background-color:rgb(209, 209,209) ;}
+.img_2{background-color: rgb(85, 85, 85);}
+
+@media(max-width:1600px){
+    .img_portfolio{width: 18%;}
+}
+@media(max-width:1400px){
+    .img_portfolio{width: 16%;}
+}
+@media(max-width:1200px){
+    .img_portfolio{width: 12%;}
+}
+@media(max-width:1000px){
+    .img_portfolio{width: 10%;}
+}

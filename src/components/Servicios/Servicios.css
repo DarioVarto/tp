@@ -1,13 +1,61 @@
-.contenedorServicios{
+.contenedor_servicios{
     color: white;
+   width: 100%;
+   margin-top:15rem ;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+.titulo_section{
+font-size: 3rem;
+margin: 1rem 0 3rem 0;
+}
+.descripcion_servicios{
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 1.6rem;
 }
 .contenedorDivServicios{
     display: flex;
     justify-content: space-around;
+    width: 83.5%;
 }
-.divServicios{
+.btn_servicios{
     display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
     align-items: center;
+    width: 30%;
+    padding: 1rem;
+    background-color: rgb(17,17,17);
+    color: white;
 }
-.iServicios{font-size: 1.5rem;
-text-align: center;}
+.flecha_servicios{font-size: 2rem;
+margin-right: 1.5rem;}
+.icon_servicios{padding: 1rem;
+font-size: 1.5rem;
+border-radius: 50%;
+color: var(--colorPrimario);
+background-color: black;
+}
+.btn_servicios:hover{
+    background-color: var(--colorPrimario);
+   
+    }
+.icon_servicios:hover{background-color: white;}
+/* 
+revisar en javascript */
+
+@media(max-width:1600px){
+    .btn_servicios{font-size: 1.8rem;}
+    .flecha_servicios{font-size: 1.8rem;}
+}
+@media(max-width:1250px){
+    .btn_servicios{
+        font-size: 1.2rem;
+    }
+    .flecha_servicios{font-size: 1.4rem;}
+
+}
+

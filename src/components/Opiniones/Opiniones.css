@@ -1,0 +1,30 @@
+
+.contenedor_opiniones{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+}
+.Img_Opiniones{
+    width: 75%;
+
+}
+.Contenedor_opiniones_carrousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.contenedor_btn_carrousel{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    justify-content: space-between;
+    margin-top: 12rem;
+}
+.btn_carrousel{
+    font-size: 2rem;
+    color: var(--colorPrimario);
+    background-color: transparent;
+}
