@@ -2,11 +2,12 @@ import './Hero.css'
 import Img_Hero from '../../assets/imagenes/img_hero.png'
 
 const Hero = () => {
+    
     return(
-        <div className='contenedor_hero'>
+        <div className='contenedor_hero' id='Hero'>
            
             <div className='contenedoorTexto'>
-                <p><span className='span_bienvenido'>Bienvenido! Soy </span></p>
+                <p><span className='span_bienvenido'>¿Quién soy?</span></p>
                 <h1 className='nombre_hero'>Darío Vartolo</h1>
                 <h3 className='profesion_hero'>Diseñador web/Profesor de matemática</h3>
                 
@@ -14,8 +15,8 @@ const Hero = () => {
                     <h4 className='texto_hero'>Profesor de matemática desde el año 2007 ejerciendo hasta la fecha</h4>
                     <h4 className='texto_hero'>Estudiante de licenciatura en folklore desde el año 2008 al 2020 en la universidad nacional del arte <span>UNA</span></h4>
                     <div className='contenedor_btn'>
-                        <button className='btn_hero'>Contratar</button>
-                        <button className='btn_hero btn_hero_margin'>Explorar</button>
+                        <button className='btn_hero'><a href="https://wa.me/5491138842605/?text=Hola, dime en que horario puedo llamarte para realizar una entrevista" target="_blank">Contratar</a></button>
+                        <button className='btn_hero btn_hero_margin'><a href='https://github.com/DarioVarto' target="_blank" >Explorar</a></button>
                     </div>
                     
 

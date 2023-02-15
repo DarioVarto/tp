@@ -5,26 +5,44 @@
     flex-direction: column;
     align-items: center;
     margin-top: 12rem;
+    position: relative;
 }
-.Img_Opiniones{
-    width: 75%;
 
-}
 .Contenedor_opiniones_carrousel{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
    
 }
+.img_carrousel{
+    animation: aparecer_izquierda;
+    animation-duration: 1s;
+}
+@keyframes aparecer_izquierda{
+    0%{
+        opacity: 0;
+        transform: translateX(200px);
+        }
+    100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
 .contenedor_btn_carrousel{
     display: flex;
     position: absolute;
-    width: 20%;
+    width: 5%;
     justify-content: space-between;
-    margin-top: 12rem;
+    
+    bottom: 0;
 }
 .btn_carrousel{
     font-size: 2rem;
     color: var(--colorPrimario);
     background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
 }
+.btn_carrousel:hover{transform: scale(1.15);}

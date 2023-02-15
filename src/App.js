@@ -1,10 +1,7 @@
 
 import './App.css';
-import { NavBar } from './components/NavBar/index';
-import { Hero } from './components/Hero/index';
-import { Servicios } from './components/Servicios/Servicios';
-import { Portfolio } from './components/Portfolio';
-import { Opiniones } from './components/Opiniones';
+import{NavBar,Hero,Servicios,Portfolio,Opiniones,Formulario} from './components'
+
 
 function App() {
   return (
@@ -16,6 +13,7 @@ function App() {
       <Servicios/>
       <Portfolio/>
       <Opiniones/>
+      <Formulario/>
    
     </div>
   );

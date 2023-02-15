@@ -1,0 +1,81 @@
+.contenedor_form{
+    margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgb(17,17,17,0.4);
+    padding-bottom: 2rem;
+    
+
+}
+.margin_contenido_form{
+    padding-left: 25%;
+}
+
+.nombre_apellido,.email_asunto{
+display: flex;
+align-items: center;
+}
+
+.nombre_apellido>input,.email_asunto>input{
+    background-color:rgba(229, 232, 232,0.2);
+    font-size: 1.2rem;
+    border: 2px solid transparent;
+    margin: 2rem 1rem;
+    border-radius: 1.5rem;
+    color: white;
+    text-align: center;
+    padding-block: 0.5rem;
+}
+label{
+    color:var(--colorPrimario);
+    font-size: 1.4rem;
+}
+ .txt_area{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+
+.txt_area>textarea{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    max-width: 62.5%;
+    min-width: 62.5%;
+    max-height: 6rem;
+    min-height: 6rem;
+    background-color:rgba(229, 232, 232,0.2);
+    border: 2px solid transparent;
+    color: white;
+    text-align: center;
+   
+} 
+
+
+    
+.form_tercera_parte>input{margin: 2rem;}
+
+.input_submit{
+    font-size: 1.2rem;
+    background-color: rgba(229, 232, 232,0.2);
+    border: 2px solid transparent;
+    color: white;
+    padding-block: 0.5rem;
+    width: 10rem;
+    border-radius: 1.5rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+   
+}
+
+.input_submit:hover{
+    background-color: var(--colorPrimario);
+    transform: scale(1.1);
+}

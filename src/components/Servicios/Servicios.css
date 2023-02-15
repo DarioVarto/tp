@@ -1,7 +1,6 @@
 .contenedor_servicios{
     color: white;
-   width: 100%;
-   margin-top:15rem ;
+    margin-top:15rem ;
    display: flex;
    flex-direction: column;
    justify-content: space-around;
@@ -10,6 +9,8 @@
 .titulo_section{
 font-size: 3rem;
 margin: 1rem 0 3rem 0;
+color: white;
+text-align: center;
 }
 .descripcion_servicios{
     text-align: center;
@@ -34,7 +35,7 @@ margin: 1rem 0 3rem 0;
 .flecha_servicios{font-size: 2rem;
 margin-right: 1.5rem;}
 .icon_servicios{padding: 1rem;
-font-size: 1.5rem;
+font-size: 2rem;
 border-radius: 50%;
 color: var(--colorPrimario);
 background-color: black;
@@ -43,7 +44,8 @@ background-color: black;
     background-color: var(--colorPrimario);
    
     }
-.icon_servicios:hover{background-color: white;}
+.btn_servicios:hover .icon_servicios{background-color: white;}
+.btn_servicios>a{text-decoration: none;color: white;}
 /* 
 revisar en javascript */
 
