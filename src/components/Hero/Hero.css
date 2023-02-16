@@ -1,6 +1,6 @@
 
 .contenedor_hero{display: flex;
-height: 55rem;
+height: 80vh;
 width: 100%;
 display: flex;
 justify-content: end;
@@ -15,10 +15,14 @@ justify-content: end;
     margin-left: 11.5rem;
    
     }
-    .contenedoorTexto>p{margin-bottom: 4rem;}
-.nombre_hero{font-size: 3rem;}
+.contenedoorTexto>p{margin-bottom: 4rem;}
+.nombre_hero{font-size: 3rem;
+    margin-bottom: 1rem;
+font-family: 'PT Serif', serif;
+}
 .profesion_hero{font-size: 1.5rem;
-margin-bottom: 3rem;}
+margin-bottom: 3rem;
+font-weight: 100;}
 
 
 .contenedorImagen_shape{
@@ -50,17 +54,19 @@ margin-bottom: 3rem;}
    }
 .span_bienvenido{
     background-color: rgb( 51, 13, 0);
-width: 20%;
+ width: 20%; 
 font-size: 1.5rem;
 padding: 1rem 1rem 1rem 1rem;
 border-radius: 0.5px;
 color: rgb(241, 77, 14);
+margin-bottom: 1rem;
 
 }
 
 .texto_hero{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     font-size: 1.2rem;
+    font-weight: 100;
 }
 .contenedor_btn{margin-top: 4rem;
 width: 100%;
@@ -84,13 +90,18 @@ border: 2px solid var(--colorPrimario);
 }
 
 @media(max-width:1500px){
-    .contenedorImagen_shape{border-radius: 
-        63% 37% 75% 23% / 39% 57% 42% 39%;}
+    .contenedor_hero{height: 70vh;
+
+    }
 }
 .contenedoorTexto{width: 50%;}
 
-@media(max-width:1250px){
+@media(max-width:1280px){
     .btn_hero{padding: 1.2rem 3rem;
         font-size: 1.2rem;
+        }
+        .contenedor_img_hero{
+width: 20rem;
+height: 20rem;
         }
 }

@@ -1,11 +1,11 @@
 import './NavBar.css'
 
-import Logo from '../../assets/imagenes/logo.png';
+
 
 import React from 'react';
 
 import {BsFacebook,BsInstagram,BsWhatsapp} from 'react-icons/bs'
-
+import {Logo} from '../Logo'
 
  
 
@@ -13,7 +13,8 @@ const NavBar = () => {
     return(
         <header className='contenedorNav'>
             
-            <img className='Logo' src={Logo} alt="Logo" />
+          
+           <Logo/>
          
             <div className='contenedor_a'>
                 <a className='aNavbar' href="#Hero">Acerca de mí</a>

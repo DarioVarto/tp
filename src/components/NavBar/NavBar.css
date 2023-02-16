@@ -5,6 +5,7 @@
     justify-content: space-around; 
     background-color: transparent;
  align-items: center;
+ padding: 0 4vh;
 
 margin-top: 1.4rem;
     
@@ -20,14 +21,14 @@ margin-top: 1.4rem;
 }
 
 .contenedor_redes{display: flex;
- 
-margin-right: 1.8rem;}
+ gap: 0.4rem;
+}
 .redes{
     padding: 0.5rem;
     color: white;
     font-size: 2rem;
     cursor: pointer;
-    margin-left: 0.2rem;   
+   
 }
 
 .aNavbar:hover{
