@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DarioVarto/tp/static/css/main.4c4ec42e.css",
+    "main.js": "/DarioVarto/tp/static/js/main.5d7ae627.js",
+    "static/media/img_hero.png": "/DarioVarto/tp/static/media/img_hero.636e3bed9d544fe35e90.png",
+    "static/media/Img_Carrousel_Charly.png": "/DarioVarto/tp/static/media/Img_Carrousel_Charly.f2aa2eef8c85da60ae48.png",
+    "static/media/Img_Carrousel_Cristian.png": "/DarioVarto/tp/static/media/Img_Carrousel_Cristian.4d8671f900ad426fe1c2.png",
+    "static/media/img_2_portfolio.jpg": "/DarioVarto/tp/static/media/img_2_portfolio.22de1a29aa0e1564fbef.jpg",
+    "static/media/Img_Carrousel_Nico.png": "/DarioVarto/tp/static/media/Img_Carrousel_Nico.82bf52ca15213410454b.png",
+    "static/media/img_1_portfolio.jpg": "/DarioVarto/tp/static/media/img_1_portfolio.0050edd3c9bdbe2157e7.jpg",
+    "static/media/img_3_portfolio.jpg": "/DarioVarto/tp/static/media/img_3_portfolio.f9866a7da1d9e94c8765.jpg",
+    "index.html": "/DarioVarto/tp/index.html",
+    "main.4c4ec42e.css.map": "/DarioVarto/tp/static/css/main.4c4ec42e.css.map",
+    "main.5d7ae627.js.map": "/DarioVarto/tp/static/js/main.5d7ae627.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c4ec42e.css",
+    "static/js/main.5d7ae627.js"
+  ]
+}
