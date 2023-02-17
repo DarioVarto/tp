@@ -54,7 +54,7 @@ const condition = next? selectIndex < imagenes.length-1:selectIndex > 0;
        
                 <div className='Contenedor_opiniones_carrousel img_carrousel'>
             
-                    <img src={selectImg} alt="Opiniones"/>
+                    <img src={selectImg} alt="Opiniones" className='imgagenes'/>
                 
                     <div className='contenedor_btn_carrousel'>
                     

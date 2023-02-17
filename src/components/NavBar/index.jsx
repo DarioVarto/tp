@@ -6,6 +6,7 @@ import React from 'react';
 
 import {BsFacebook,BsInstagram,BsWhatsapp} from 'react-icons/bs'
 import {Logo} from '../Logo'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
  
 
@@ -29,6 +30,9 @@ const NavBar = () => {
                 <a href="#" target='_blank' className='redes_hover'><BsInstagram className='redes'/></a>
                 <a href="https://wa.me/5491138842605/?text=Hola, quería consultarte..." target="_blank" className='redes_hover'><BsWhatsapp className='redes'/></a>
 
+            </div>
+            <div className='hamburguesa'>
+                    <GiHamburgerMenu/>
             </div>
         </header>
     )

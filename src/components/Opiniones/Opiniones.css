@@ -46,3 +46,13 @@
     cursor: pointer;
 }
 .btn_carrousel:hover{transform: scale(1.15);}
+
+@media(max-width:1024px){
+    .contenedor_opiniones{margin-top: 6rem;}
+    .Contenedor_opiniones_carrousel{width: 80%;}
+    
+}
+@media(max-width:786px){
+    .Contenedor_porfolio{width: 80%;}
+    
+}

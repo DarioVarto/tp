@@ -31,5 +31,8 @@
     .img_portfolio{width: 12%;}
 }
 @media(max-width:1000px){
-    .img_portfolio{width: 10%;}
+    .contenedor_imagenes{flex-direction: column;
+    align-items: center;
+gap: 2rem;}
+.img_portfolio{width: 40%;}    
 }

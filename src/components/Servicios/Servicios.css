@@ -55,11 +55,33 @@ revisar en javascript */
     .btn_servicios{font-size: 1.8rem;}
     .flecha_servicios{font-size: 1.8rem;}
 }
-@media(max-width:1250px){
+@media(max-width:1280px){
+    .contenedor_servicios{margin-top: 5rem;}
     .btn_servicios{
         font-size: 1.2rem;
     }
     .flecha_servicios{font-size: 1.4rem;}
-
+    .btn_servicios{padding: 0.8rem;}
+    .descripcion_servicios{font-size: 1.2rem;}
+}
+@media(max-width:1024px){
+    .contenedor_servicios{margin-top: 1rem;}
+    .contenedorDivServicios{flex-direction: column;
+    width: 100%;
+align-items: center;
+gap: 2rem;}
+}
+@media(max-width:768px){
+    .descripcion_servicios{font-size: 1.4rem;
+                            margin-left: 2rem;}
+    .btn_servicios{width: 60%;
+                    font-size: 1.6rem;}
+    .contenedor_servicios{margin-top: 4rem;}
+}
+@media(max-width:320px){
+    .titulo_section{font-size: 2.5rem;}
+    .descripcion_servicios{font-size: 1.2rem;}
+    .btn_servicios{width: 80%;
+        font-size: 1.2rem;}
 }
 

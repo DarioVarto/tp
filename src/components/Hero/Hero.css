@@ -1,6 +1,6 @@
 
 .contenedor_hero{display: flex;
-height: 80vh;
+height: 100vh;
 width: 100%;
 display: flex;
 justify-content: end;
@@ -15,8 +15,8 @@ justify-content: end;
     margin-left: 11.5rem;
    
     }
-.contenedoorTexto>p{margin-bottom: 4rem;}
-.nombre_hero{font-size: 3rem;
+
+.nombre_hero{font-size: 3.4rem;
     margin-bottom: 1rem;
 font-family: 'PT Serif', serif;
 }
@@ -60,13 +60,15 @@ padding: 1rem 1rem 1rem 1rem;
 border-radius: 0.5px;
 color: rgb(241, 77, 14);
 margin-bottom: 1rem;
+text-align: center;
 
 }
 
 .texto_hero{
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 100;
+    line-height: 2rem;
 }
 .contenedor_btn{margin-top: 4rem;
 width: 100%;
@@ -89,19 +91,78 @@ cursor: pointer;
 border: 2px solid var(--colorPrimario);
 }
 
-@media(max-width:1500px){
-    .contenedor_hero{height: 70vh;
-
-    }
+@media(max-width:1680px){
+    .contenedorImagen_shape{height: 100%;}
+    .contenedoorTexto{margin-left: 10rem;}
+    .btn_hero{padding: 1.2rem 2.8rem;
+        font-size: 1.4rem;
+        }
 }
 .contenedoorTexto{width: 50%;}
 
 @media(max-width:1280px){
-    .btn_hero{padding: 1.2rem 3rem;
-        font-size: 1.2rem;
+
+    .contenedoorTexto{margin-left: 7.4rem;}
+    .span_bienvenido{
+                    width: 25%;
+                    font-size: 1.2rem;
+    }
+    .nombre_hero{font-size: 2.6rem;}
+    
+    .profesion_hero{
+                    font-size: 1.2rem;
+                    margin-bottom: 1.6rem;}
+
+    .texto_hero{
+                    font-size: 1rem;
+                    margin-top: 0.4;}
+    .contenedor_btn{margin-top: 2.2rem;}
+    .btn_hero{
+        padding: 1rem 2.6rem;
+        font-size: 1rem;
         }
-        .contenedor_img_hero{
-width: 20rem;
-height: 20rem;
+    .contenedorImagen_shape{height: 90%;}
+    .contenedor_img_hero{
+                        width: 50vh;
+                        height: 50vh;
         }
+}
+
+@media(max-width:1024px){
+    .contenedoorTexto{
+                        margin-left: 4.2rem;
+                        justify-content: flex-start;
+                    margin-top: 6rem;}
+    .span_bienvenido{font-size: 1rem;}
+    .nombre_hero{font-size: 2.2rem;}
+    .profesion_hero{margin-bottom: 1rem;}
+    .texto_hero{margin-top: 0.2rem;}
+    .contenedor_btn{margin-top: 1.6rem;}
+    .btn_hero{
+                padding: 1rem 2.4rem;
+                font-size: 1rem;
+        }
+    .contenedorImagen_shape{height: 85%;}
+    .contenedor_img_hero{
+                                width: 45vh;
+                                height: 45vh;
+}
+}
+@media(max-width:900px){
+    .contenedor_hero{flex-direction:column-reverse;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: auto;}
+    .contenedor_img_hero{
+                        width: 30vh;
+                        height: 30vh;
+                        }
+    .contenedoorTexto{margin-left: 0;}
+    .span_bienvenido{width: 25vh;}
+    .contenedorImagen_shape{height: 100%;
+                            margin-top: 4rem;}
+    .btn_hero_margin{margin-left: 0px;}  
+    .texto_hero{font-size: 1.6rem;
+    line-height: 2.5rem;}
 }

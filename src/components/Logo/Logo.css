@@ -6,3 +6,8 @@
     stroke-width: 1;
  
 }
+
+@media(max-width:1280px){
+    .infinito{width: 70px;
+            height: 50px;}
+}

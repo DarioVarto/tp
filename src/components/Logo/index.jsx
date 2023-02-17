@@ -5,7 +5,7 @@ import { easeIn, easeInOut, motion } from "framer-motion"
 const Logo = ()=>{
 
 const pathVariants={
-    hidden:{opacity:0.8,
+    hidden:{opacity:0.6,
         
     pathLength:0,
     },
